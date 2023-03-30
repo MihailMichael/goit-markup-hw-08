@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="portfolio" href="./portfolio.html" />
+    <link rel="studio" href="./index.html" />
+    <link rel="WebStudio" href="./index.html" />
+  </head>
+  <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-div">
+        <h3 class="modal-title">
+          Leave your information and we'll call you back
+        </h3>
+        <button data-modal-close class="button-data-modal">
+          <svg width="18" height="18">
+            <use href="./global-svg.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form name="contact-form" class="contact-form">
+          <label class="form-item">
+            Name
+            <svg width="12" height="12">
+              <use href="./global-svg.svg#icon-Vectorname"></use>
+            </svg>
+            <input type="text" name="username" />
+          </label>
+          <label class="form-item">
+            Telephone
+            <svg width="13" height="13">
+              <use href="./global-svg.svg#icon-Vectorphone"></use>
+            </svg>
+            <input type="tel" name="Telephone" />
+          </label>
+          <label class="form-item">
+            E-mail
+            <svg width="15" height="12">
+              <use href="./global-svg.svg#icon-Vectormail"></use>
+            </svg>
+            <input type="email" name="email" />
+          </label>
+          <label class="form-item">
+            Comments
+            <textarea name="feedback" placeholder="Enter the text"></textarea>
+          </label>
+          <label class="form-item terms">
+            <input type="checkbox" name="email" />
+            <span class="replace-checkbox">
+              <svg width="11" height="8">
+                <use href="./global-svg.svg#icon-checkbox"></use>
+              </svg>
+            </span>
+            I agree with the letter and accept the
+            <a class="link-checkbox" href="#">Terms and Conditions</a>
+          </label>
+          <button class="button-checkbox" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- Header -->
+    <header>
+      <section class="section-header">
+        <div class="container-header">
+          <nav class="nav-list">
+            <ul class="grid">
+              <li class="grid__item">
+                <a class="grid__item-logo" href="./index.html">Web</a>
+              </li>
+              <li class="grid__item">
+                <a class="grid__item-special" href="./index.html">Studio</a>
+              </li>
+              <li class="grid__item">
+                <a class="grid__item-link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="grid__item">
+                <a class="grid__item-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="container-right-header">
+            <ul class="grid-right">
+              <li class="grid-right__info">
+                <a
+                  class="grid-right__info-link"
+                  href="mailto:info@devstudio.com"
+                >
+                  <svg width="16" height="12">
+                    <use href="./global-svg.svg#icon-mail"></use>
+                  </svg>
+                  info@devstudio.com</a
+                >
+              </li>
+
+              <li>
+                <a class="grid-right__info-link" href="tel:+12127724150">
+                  <svg width="10" height="16">
+                    <use href="./global-svg.svg#icon-phone"></use>
+                  </svg>
+                  +1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- First Section-->
+      <section class="first-section">
+        <div class="container-first">
+          <h1 class="first-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+          <button data-modal-open class="first-botton" type="button">
+            Request our service
+          </button>
+        </div>
+      </section>
+      <!--Second Section-->
+      <section class="second-section">
+        <div class="second-container">
+          <ul class="second-grid">
+            <li class="second-grid__item">
+              <a href="#">
+                <svg width="70" height="70">
+                  <use href="./global-svg.svg#icon-antenna-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-grid__item">
+              <a href="#">
+                <svg width="70" height="70">
+                  <use href="./global-svg.svg#icon-clock-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-grid__item">
+              <a href="#">
+                <svg width="70" height="70">
+                  <use href="./global-svg.svg#icon-diagram-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="second-grid__item">
+              <a href="#">
+                <svg width="70" height="70">
+                  <use href="./global-svg.svg#icon-astronaut-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-second-section">
+          <ul class="grid-product">
+            <li>
+              <h3 class="grid-product__title">ATTENTION TO DETAILS</h3>
+              <p class="grid-product__description">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="grid-product__title">PUNCTUALITY</h3>
+              <p class="grid-product__description">
+                With us, you can feel safe and secure. <br />
+                An important principle of the company: respect your time and
+                deadlines.
+              </p>
+            </li>
+            <li>
+              <h3 class="grid-product__title">PLANNING</h3>
+              <p class="grid-product__description">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li>
+              <h3 class="grid-product__title">MODERN TECHNOLOGIES</h3>
+              <p class="grid-product__description">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Third Section-->
+      <section class="third-section">
+        <div class="container-third-section">
+          <h2 class="third-title">What we do</h2>
+          <ul class="third-grid">
+            <li class="third-grid__item">
+              <img
+                src="./images/StudioWork.jpg"
+                alt="StudioWork"
+                width="370"
+                height="294"
+              />
+              <div class="third-product">
+                <h3 class="third__product__title">DESKTOP APPS</h3>
+              </div>
+            </li>
+            <li class="third-grid__item">
+              <img
+                src="./images/StudioWork2.jpg"
+                alt="StudioWork"
+                width="370"
+                height="294"
+              />
+              <div class="third-product">
+                <h3 class="third-product__title">Mobile APPS</h3>
+              </div>
+            </li>
+            <li class="third-grid__item">
+              <img
+                src="./images/StudioWork3.jpg"
+                alt="StudioWork"
+                width="370"
+                height="294"
+              />
+              <div class="third-product">
+                <h3 class="third-product__title">DESIGN SOLUTIONS</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Fourth Section-->
+      <section class="fourth-section">
+        <div class="container-fourth-section">
+          <h2 class="fourth-title">Our Team</h2>
+          <ul class="fourth-grid">
+            <li class="fourth-grid__item">
+              <img
+                src="./images/Christopher Walker.jpg"
+                alt="Christopher Walker"
+                width="270"
+              />
+              <h3 class="fourth-grid__item-name">Christopher Walker</h3>
+              <p class="fourth-grid__item-specialty">Product Designer</p>
+              <div class="social-media-container">
+                <ul class="fourth-grid-social">
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-linkedin2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="fourth-grid__item">
+              <img
+                src="./images/Kylie Evans.jpg"
+                alt="Kylie Evans"
+                width="270"
+              />
+              <h3 class="fourth-grid__item-name">Kylie Evans</h3>
+              <p class="fourth-grid__item-specialty">Frontend Developer</p>
+              <div class="social-media-container">
+                <ul class="fourth-grid-social">
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-linkedin2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="fourth-grid__item">
+              <img
+                src="./images/Ryan Harris.jpg"
+                alt="Ryan Harris"
+                width="270"
+              />
+              <h3 class="fourth-grid__item-name">Ryan Harris</h3>
+              <p class="fourth-grid__item-specialty">Marketing</p>
+              <div class="social-media-container">
+                <ul class="fourth-grid-social">
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-linkedin2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="fourth-grid__item">
+              <img
+                src="./images/Tyler Moore.jpg"
+                alt="Tyler Moore"
+                width="270"
+              />
+              <h3 class="fourth-grid__item-name">Tyler Moore</h3>
+              <p class="fourth-grid__item-specialty">UI Designer</p>
+              <div class="social-media-container">
+                <ul class="fourth-grid-social">
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="fourth-grid-social__item">
+                    <a href="">
+                      <svg width="20" height="20">
+                        <use href="./global-svg.svg#icon-linkedin2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Fifth Section-->
+      <section class="fifth-section">
+        <div class="container-fifth-section">
+          <h3 class="fifth-title">Regular Customers</h3>
+          <ul class="fifth-grid">
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="41" height="46.7">
+                  <use href="./global-svg.svg#icon-group-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="40" height="52">
+                  <use href="./global-svg.svg#icon-group"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="43.46" height="41.18">
+                  <use href="./global-svg.svg#icon-filecompany"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="84.44" height="40.62">
+                  <use href="./global-svg.svg#icon-group-foster"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="62.54" height="45.43">
+                  <use href="./global-svg.svg#icon-group-brand"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="fifth-grid__item">
+              <a href="#">
+                <svg width="93.79" height="43.93">
+                  <use href="./global-svg.svg#icon-Object-company"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer>
+      <section class="section-footer">
+        <div class="container-footer">
+          <address class="footer-item">
+            <ul class="footer-grid">
+              <li class="footer-grid__item">
+                <a class="footer-grid__item-logo" href="./index.html">Web</a>
+              </li>
+              <li class="footer-grid__pozition">
+                <a class="footer-grid__pozition-link" href="#"
+                  >695 Park Ave, NY 10065, USA</a
+                >
+              </li>
+              <li class="footer-grid__contact">
+                <a
+                  class="footer-grid__contact-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-grid__contact">
+                <a class="footer-grid__contact-link" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="social-media-footer">
+            <h3 class="title-media-footer">Find us on</h3>
+            <ul class="social-media-grid">
+              <li class="social-media-grid_item">
+                <a href="">
+                  <svg width="20" height="20">
+                    <use href="./global-svg.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-grid_item">
+                <a href="">
+                  <svg width="20" height="20">
+                    <use href="./global-svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-grid_item">
+                <a href="">
+                  <svg width="20" height="20">
+                    <use href="./global-svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-grid_item">
+                <a href="">
+                  <svg width="20" height="20">
+                    <use href="./global-svg.svg#icon-linkedin2"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="container-form">
+            <h3 class="title-form">Subscribe to the newsletter</h3>
+            <form name="Subscribe to the newsletter" class="inner-form">
+              <input type="email" name="email" placeholder="E-mail" />
+              <button class="button-form" type="submit">
+                Subscribe
+                <svg width="24" height="24">
+                  <use href="./global-svg.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

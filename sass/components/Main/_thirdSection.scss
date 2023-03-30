@@ -1,0 +1,60 @@
+.third-section {
+  display: flex;
+  margin-top: 94px;
+  justify-content: center;
+}
+.third-title {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container-third-section {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & ul {
+    display: flex;
+    gap: 30px;
+  }
+}
+.third-grid {
+  list-style: none;
+}
+
+.third-product {
+  display: flex;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+.third-grid__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  align-items: flex-end;
+}
+.third-product__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

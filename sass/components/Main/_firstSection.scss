@@ -1,0 +1,51 @@
+.first-section {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/efective\ solution.jpg);
+  width: auto;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-first {
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.first-title {
+  width: 763px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.first-botton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  &[type="button"] {
+    background-color: #2196f3;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+  }
+}
