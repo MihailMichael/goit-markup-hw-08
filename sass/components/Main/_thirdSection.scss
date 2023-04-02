@@ -2,6 +2,12 @@
   display: flex;
   margin-top: 94px;
   justify-content: center;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .third-section {
+    visibility: visible;
+  }
 }
 .third-title {
   font-size: 36px;

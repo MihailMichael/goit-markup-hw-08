@@ -6,25 +6,99 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/efective\ solution.jpg);
-  width: auto;
+    url(images\background-M480.jpg);
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .first-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(images\background-M480@x2.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .first-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(images\background-T768.jpg);
+  }
+  .container-first {
+    width: 768px;
+  }
+  .first-title {
+    width: 360px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .first-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(images\background-T768@x2.jpgg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .first-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(images\background-D1200.jpg);
+  }
+  @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 1200px) and (min-resolution: 192dpi),
+    screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+    .first-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(images\background-D1200@x2.jpg);
+    }
+  }
+  .container-first {
+    width: 1200px;
+  }
+  .first-title {
+    width: 763px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+  }
+}
 .container-first {
   display: flex;
-  width: 1200px;
+  width: 480px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 .first-title {
-  width: 763px;
+  width: 360px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
+  font-size: 26px;
+  line-height: 42px;
   letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;

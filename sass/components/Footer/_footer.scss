@@ -1,19 +1,61 @@
+@media screen and (min-width: 768px) {
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-footer {
+    height: 251px;
+  }
+  .container-footer {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .inner-form {
+    width: 358px;
+    height: 50px;
+  }
+  .social-media-footer {
+    padding-top: 15px;
+    padding-left: 52px;
+  }
+  .title-media-footer {
+    margin-left: 45px;
+  }
+  .container-form {
+    padding-top: 4px;
+    width: 570px;
+    height: 86px;
+    align-items: baseline;
+  }
+  .title-form {
+    margin-left: 212px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+}
+
 .section-footer {
-  height: 251px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-decoration: none;
   background: #2f303a;
-  height: 251px;
   padding-top: 60px;
+  padding-bottom: 36px;
 }
-.container-footer {
-  width: 1200px;
-  display: flex;
-  margin: 0 auto;
-}
+
 .footer-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
   list-style: none;
   &__pozition,
   &__contact {
@@ -63,8 +105,7 @@
   justify-content: center;
   fill: #ffffff;
 }
-
-. .footer-grid__item-logo {
+.footer-grid__item-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -81,9 +122,8 @@
 
 .social-media-footer {
   display: flex;
-  padding-top: 15px;
-  padding-left: 52px;
   flex-direction: column;
+  align-items: center;
 }
 .social-media-grid {
   display: flex;
@@ -101,7 +141,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-left: 45px;
+
   margin-bottom: 20px;
 }
 .social-media-grid_item:hover,
@@ -111,33 +151,28 @@
   transition: color, border, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-form {
-  padding-top: 15px;
   display: flex;
-  width: 570px;
-  height: 86px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
 }
 .title-form {
   display: flex;
   flex: 1 0 100%;
-  margin-left: 212px;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .inner-form {
   display: flex;
-  width: 358px;
-  height: 50px;
+
   gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   & input {
     display: flex;
