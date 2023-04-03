@@ -7,28 +7,18 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .fifth-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 94px;
-  }
-
   .fifth-title {
     font-size: 36px;
     line-height: 42px;
   }
   .container-fifth-section {
-    display: flex;
-    flex-direction: column;
+    width: 1200px;
   }
   .fifth-grid {
     flex-wrap: nowrap;
   }
 }
 .fifth-section {
-  display: flex;
-  justify-content: center;
-
   margin-bottom: 94px;
 }
 
@@ -37,6 +27,8 @@
   gap: 30px;
   list-style: none;
   flex-wrap: wrap;
+  padding-left: 0px;
+  justify-content: center;
 }
 
 .fifth-grid__item a {

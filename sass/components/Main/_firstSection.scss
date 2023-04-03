@@ -6,7 +6,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(images\background-M480.jpg);
+    url("/images/background-M480.jpg");
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,17 +20,18 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(images\background-M480@x2.jpg);
+      url("/images/background-M480@x2.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .first-section {
+    width: 768px;
     background-image: linear-gradient(
         to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(images\background-T768.jpg);
+      url("/images/background-T768.jpg");
   }
   .container-first {
     width: 768px;
@@ -46,34 +47,37 @@
   screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .first-section {
+    width: 768px;
     background-image: linear-gradient(
         to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(images\background-T768@x2.jpgg);
+      url("/images/background-T768@x2.jpg");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .first-section {
+    width: 1200px;
     background-image: linear-gradient(
         to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(images\background-D1200.jpg);
+      url("/images/background-D1200.jpg");
   }
   @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 1200px) and (min-resolution: 192dpi),
     screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     .first-section {
+      width: 1200px;
       background-image: linear-gradient(
           to bottom,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(images\background-D1200@x2.jpg);
+        url("/images/background-D1200@x2.jpg");
     }
   }
   .container-first {
