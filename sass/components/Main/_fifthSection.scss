@@ -1,7 +1,4 @@
 @media screen and (min-width: 768px) {
-  .fifth-section {
-    width: 768px;
-  }
   .fifth-grid {
     justify-content: center;
   }
@@ -19,9 +16,14 @@
   }
 }
 .fifth-section {
+  display: flex;
+  justify-content: center;
   margin-bottom: 94px;
 }
-
+.container-fifth-section {
+  display: flex;
+  flex-direction: column;
+}
 .fifth-grid {
   display: flex;
   gap: 30px;

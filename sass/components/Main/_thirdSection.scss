@@ -18,10 +18,8 @@
 }
 .container-third-section {
   display: flex;
-  width: 1200px;
-  flex-wrap: wrap;
-  justify-content: center;
-
+  align-items: center;
+  flex-direction: column;
   & ul {
     display: flex;
     gap: 30px;
